@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    border: 1px dotted red;
+    border-color: red;
+}
+
+.test {
+    border: 1px dotted red;
+    border-color: red;
+}
+
+.body-nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+.format-view{
+  padding: 0px 10vw;
+}
+
+/* Profile and motto styles*/
+
+.motto-emphasis{
+    opacity: .5;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    float: right;
+    /*Change to center for mobile*/
+    height: 30vh;
+    width: 30vh;
+}
+
+.profile-picture-container-ends{
+    display: flex;
+    float: left;
+    width: 25vh;
+
+    border: 1px dotted red;
+    border-color: red;
+}
+
+.profile-picture-container-motto{
+    color: black;
+    font-size: 5em;
+    float: left;
+    /*Change to center for mobile*/
+    opacity: .85;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+/*
+  The social media nav styles are below
+  Listed alphabetically
+*/
+
+.social-nav{
+    height: 10vh;
+    margin: 0px;
+    width: 100vw;
+}
+
+.social-nav-elements{
+    display: inline;
+    height: 100%;
+    float: right;
+}
+
+.social-nav-icons{
+    color: blue;
+    height: 5vh;
+    width: 5vh;
+}
+
+.social-sub-nav{
+    width: 15vw;
+}
+
+.sub-social-cap{
+    width: auto;
+}
